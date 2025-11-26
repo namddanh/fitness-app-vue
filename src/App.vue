@@ -1,5 +1,12 @@
-<script setup></script>
+<script setup>
+  import Layout from "./components/layouts/Layout.vue";
+  import Welcome from "./components/pages/Welcome.vue";
+</script>
 
-<template></template>
+<template>
+  <Layout>
+    <Welcome />
+  </Layout>
+</template>
 
 <style scoped></style>
