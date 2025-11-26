@@ -5,7 +5,7 @@
   import Dashboard from "./components/pages/Dashboard.vue";
   import Workout from "./components/pages/Workout.vue";
 
-  const selectedDisplay = ref(2);
+  const selectedDisplay = ref(3);
 </script>
 
 <template>
