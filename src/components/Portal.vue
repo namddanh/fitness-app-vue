@@ -1,4 +1,11 @@
-<script setup></script>
+<script setup>
+  import { defineProps } from "vue";
+
+  defineProps({
+    hello: String,
+    handleCloseModal: Function,
+  });
+</script>
 
 <template>
   <Teleport to="#portal">
@@ -6,7 +13,7 @@
       <div
         role="button"
         tabindex="0"
-        @click="() => {}"
+        @click="handleCloseModal"
         class="portal-underlay"
       ></div>
       <div class="portal-content">

@@ -17,7 +17,11 @@
 </script>
 
 <template>
-  <Portal v-if="selectedExercise">
+  <Portal
+    v-if="selectedExercise"
+    hello="world"
+    :handleCloseModal="handleCloseModal"
+  >
     <div class="exercise-description">
       <h3>{{ selectedExercise }}</h3>
       <div>
