@@ -1,5 +1,7 @@
 <script setup></script>
 
-<template></template>
+<template>
+  <div>Hello i am grid</div>
+</template>
 
 <style scoped></style>

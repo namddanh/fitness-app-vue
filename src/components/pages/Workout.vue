@@ -1,5 +1,7 @@
 <script setup></script>
 
-<template></template>
+<template>
+  <div>WOrkout</div>
+</template>
 
 <style scoped></style>
